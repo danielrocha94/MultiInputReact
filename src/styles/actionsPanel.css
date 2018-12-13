@@ -1,0 +1,21 @@
+.actionsPanel_container {
+  width: 100%;
+  background-color: #E7EFFE;
+  border-top: 1px solid  #D5DCEA;
+  margin-top: 30px;
+}
+
+.actionsPanel_buttonToolbar a {
+  text-transform: uppercase;
+  font-weight: 500;
+  color: #82868D;
+  padding: 12px;
+  margin-right: 10px;
+  border: none;
+  background-color: #E7EFFE;
+}
+
+.actionsPanel_buttonToolbar a:hover {
+  text-decoration: none;
+  cursor: pointer;
+}
