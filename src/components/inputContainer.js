@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import {Button} from 'react-bootstrap';
-import '../styles/inputContainer.css';
+import '../styles/inputContainer.scss';
 
 class InputContainer extends Component {
   render() {
