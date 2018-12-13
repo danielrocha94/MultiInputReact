@@ -11,9 +11,13 @@ class App extends Component {
         <Grid>
           <Row justify="center" className="site-row">
             <Col xs={8} md={12} className="">
-              <div className="site-body"> <div className="formContent">
-                  Test
+              <div className="site-body">
+                <div className="formContent">
+                  <h4>
+                    Test
+                  </h4>
                   <div className="formItemList">
+                    <InputContainer />
                     <InputContainer />
                   </div>
                 </div>

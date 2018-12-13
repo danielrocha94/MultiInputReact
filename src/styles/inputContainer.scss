@@ -1,11 +1,15 @@
-
-.formItemInputContainer {
-  width: 91%;
-  display: inline-block;
+html {
+  font-size: 16px;
 }
 
-/*
-.formItemInputContainer input {
+.formItem {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: flex-end;
+}
+
+.formItemTextField {
   width: 100%;
   padding: 6px 12px;
   color: rgba(0,0,0,0.38);
@@ -16,7 +20,6 @@
   border: none;
   display: block;
 }
-*/
 
 .inputContainer-wrapper {
   padding: 15px;
@@ -25,8 +28,9 @@
 .formItemDeleteSvg {
   padding-top: 14px;
 }
-/*
-.inputAreaHint {
-  border: 1px solid #3E67D3;
+
+.formItemButton {
+  padding-top: 10px;
+
 }
-*/
+
