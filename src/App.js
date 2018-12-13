@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import './styles/App.css';
+import './styles/App.scss';
 import InputContainer from './components/inputContainer.js';
 import ActionsPanel from './components/actionsPanel.js';
 import {Grid, Row, Col} from 'react-bootstrap';
