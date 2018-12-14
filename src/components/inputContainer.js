@@ -3,7 +3,7 @@ import {TextField, IconButton} from '@material-ui/core';
 import {withStyles} from '@material-ui/core/styles';
 import ClearIcon from '@material-ui/icons/Clear';
 import PropTypes from 'prop-types';
-import '../styles/inputContainer.scss';
+import '../styles/inputContainer.css';
 
 const styles = {
   textField: {
