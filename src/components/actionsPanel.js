@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import {ButtonToolbar } from 'react-bootstrap';
-import '../styles/actionsPanel.scss';
+import '../styles/actionsPanel.css';
 
 class ActionsPanel extends Component {
   render() {
