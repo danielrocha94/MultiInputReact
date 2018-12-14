@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Button, ButtonToolbar } from 'react-bootstrap';
+import {ButtonToolbar } from 'react-bootstrap';
 import '../styles/actionsPanel.scss';
 
 class ActionsPanel extends Component {
@@ -7,8 +7,8 @@ class ActionsPanel extends Component {
     return (
       <div className="actionsPanel_container">
         <ButtonToolbar  className="actionsPanel_buttonToolbar">
-          <a className="pull-right" style={{ color: "#527FDB" }}>Save</a>
-          <a className="pull-right">Cancel</a>
+          <a href="#" className="pull-right" style={{ color: "#527FDB" }}>Save</a>
+          <a href="#" className="pull-right">Cancel</a>
         </ButtonToolbar>
       </div>
     );
